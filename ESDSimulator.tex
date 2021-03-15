@@ -78,7 +78,7 @@
 \univerza{Univerza v Ljubljani}
 \definecolor{unilj}{cmyk}{0.00, 0.94, 0.94, 0.06} % barva Univerze v Ljubljani
 
-\delo{Diplomsko delo\\~\\Visokošolski strokovni študijski program\\prve stopnje Aplikativna elektrotehnika}
+\delo{Zaključno poročilo\\~\\Visokošolski strokovni študijski program\\prve stopnje Aplikativna elektrotehnika}
 \fakulteta{Fakulteta za elektrotehniko}
 
 % DOKUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,6 +148,15 @@ Pri čimer so vektorji in matrike zapisani s poudarjeno pisavo. Natančnejši po
 %******************************* UVOD ******************************************
 \chapter{Uvod} \label{uvod}
 
+Praktično uposabljanje sem opravljal v podjetju Renishaw d.o.o., podjetje se ukvarja z integriranimi vezji za speficično uporabo (ASIC). Podjetje je bilo ustanovljeno leta kot hčerinsko podjetje Britanskega podjetja Renisahw p.l.c. Zaposleni so razdeljeni na tri skupine:
+\begin{itemize}
+	\item načrtovalci: načrtujejo posamezne sklope inegriranega vezja in karakterizirajo vezje s pomočjo simulacij.
+	\item postavljalci: postavijo posamezne komponente na površino inegriranega vezja (podobno kot risanje tiskanih vezij).
+	\item testni inžinerji: karakterizirajo narejena integrirana vezja, načrtujejo testna vezja in skrbijo za testiranje vezij za proizvodnjo.
+\end{itemize}
+Jaz sem izvajal praktično usposabljanje v skupini testnih inžinerjev. Zadana mi je bila naloga izdelave simulatorja elektrostatične razelektritve, kateri se uporablja pri vertifikaciji integriranih vezij. Zahteve so bile po maksimalni napetosti vsaj \SI{15}{\kilo\volt}, nastavljivost izhodne napetosti med \SI{250}{\volt} in \SI{15}{\kilo\volt}, natančnost izhodne napetosti vsaj 3\% ter ustrezanje CE zakonodaji. 
+
+
 Za potrebe testiranja integriranih vezij smo v podjetju potrebovali simulator elektrostatične razelektritve. Na začetku snovanja so bile zastavljene specifikacije maximalne napetosti 15kV in uporaba že narejenih modulov za nastavljivi visokonapetostni napajalnik ter visokonapetostno stikalo. Tekom projekta se je to spremenilo in prišlo do odločitve o lastnem načrtovanju nastavljivega visokonapetostnega napajalnika. Pri tem modulu smo imeli kar nekaj tehničnih ovir za prebrosti. Največji sta bili ustrezanje regulacijam CE ter zagotavljanje 15kV izolacije med primarno in sekundarno stranjo.
 Prvotni načrti so bili lastno navijanje primernega "step-up" transformatorja. Po kar nekaj mertivah in izračunih se je to pokazalo za neprimerno, saj nismo uspeli zagotoviti željene napetosti in izolacije. Rezervni načrt je bil razdredi televizor s katodno cevjo in iz tam vzeti ven transformator. Tega smo se želeli kar se da izogniti saj se že trenutno težko najde televizorje s katodno cevjo, čez leta se bo pa še težje. Motilo me je pa tudi razlikovanje transformatorjev tako v podnožju kot v karakterisitkah in vgrajene diode v sekundarnem navitju zagotovo ne pomagajo pri karakterizaciji transformatorja. 
 Regulacija napetosti nam je povzročala probleme zaradi zagotavljanja željene izolacije. S pomočjo simulacij smo preizkusili kateri tipi krmilnikov bi nam ustrezali. Izločili smo vse neizolirane krmilnike, krmilnik s povratno vezavo preko optičnega spojnika, zaradi nelinearnosti le tega ni bil zmožen pokrivati celotne izhodne napetosti od \SI{250}{\volt} do \SI{15}{\kilo\volt}, krmilnik s povratno vezavo preko pomožnega navitja je v simulacijah izgledal obetavno vendar se je na koncu izkazal za neprimernega. Kot primeren se je izkazal samo regulator ima povratno vezavo preko primarnega navitja in sicer z merjenjem zrcaljene napetosti z sekundarnega navtija na primarno.
@@ -185,6 +194,77 @@ Princip delovanja simulatorja elektrostatične razelektritve je dokaj enostaven.
     \end{figure}
 
 %******************************* POGLAVJA **************************************
+\chapter{Simulator elektrostatične razelektritve} \label{ESDSIM}
+
+	\section{Praktično uposabljanje}
+	Načrtovalski del projekta, sem delal na svojem računalniškem delovnem mestu, kjer sem uporabljal:
+	\begin{itemize}
+		\item Altium Designer: risanje električnih shem in načrtovanje tiskanih vezij
+		\item Visio: risanje blok diagramov in konceptnih shem
+		\item LTSpice: simulacija analognih vezij
+		\item STM32Cube: programiranje mikrokrmilnikov ARM STM32
+		\item Python: komunikacija med mikrokrmilnikom in računalnikom
+	\end{itemize}
+	Na mizi sem imel antistatično podlogo, vendar to delovno mesto ni bilo namenjeno meritvam, kvečjem hitrim meritvam, s katerimi sem potrdil koncept.
+	Za obsežnejše meritve sem imel na voljo merilno mesto, kjer je bilo tudi na voljo več merilnih inštrumentov. Pri svojem delu sem največ uporabljal:
+	\begin{itemize}
+		\item Rigol DS1054Z: digitalni osciloskop
+		\item neki neki : visokonapetostna diferencialna sonda
+		\item Rigol DP832: 3 kanalni laboratorijski napajalnik
+		\item PeackTech 3450: multimeter z vgrajeno termalno kamero
+	\end{itemize}
+	Pred delom z visoko napetostjo, sem moral opraviti interni tečaj varstva pri delu. Po posvetu z mentorjem sva sklenila razdeliti nalogo po posameznih modulih. Za vsak modul sem naprej pripravil blokovno shemo, ter opis možnih rešitev, po pregledu le teh je sledilo nadaljno simuliranje v LTSpice in ko smo bili zadovoljni z rezultati še načrtovanje v Altium Designer.
+	
+	\section{Zasnova simulatorja elektrostatične razelektritve}
+	Poleg že omenjenih specifikacij je veljalo tudi, da mora simulator ustrezati standardoma MIL-STD-883K in JS-001-2007. Osnovna shema simulatorja je sledeča:
+	\begin{figure}[h]
+    \begin{circuitikz}
+        \draw (0,0)
+       to[V, v=$V$] (0,3)
+       to[R=1M] (2,3)
+       to[short] (2.685,3)
+       to[short] (2.685,2.5);
+       
+       \draw (3,2)
+       node[spdt, rotate=90] {};
+       
+       \draw (0,0)
+       to[short] (3,0)
+       to[C=100pF] (3,1.5);
+       
+       \draw (3,0)
+       to[short] (5,0)
+       to[short, -d] (5,0.5);
+       
+       \draw (3.315,2.5)
+       to[short] (3.315,3)
+       to[R=1500Ohm] (5,3)
+       to[short, -d] (5,2.5);
+    \end{circuitikz}
+          \caption{\label{ESDTesterShemaOsnovna} Osnovna shema ESD simulatorja.}
+    \end{figure}
+    
+	Sestavljajo ga nastavljivi visokonapetostni izvir, polnilni upor, praznilni kondenzator, praznilni upor ter ne-preskakovalno (t.i. bounce-less) stikalo. Preko polnilnega upora se napolni praznilni kondenzator na željeno vrednost, katerega se v željenem trenutku preko praznilnega upora sprazni skozi napravo pod testom. Izhodni tok mora vstrezati limitam katere so podane v standardih: dvižni čas mora biti manjši kot \SI{10}{\nano\second} ter čas praznenja kondenzatorja skozi kratki stik mora biti manjši kot NEKINEKINEKI SE MI ZDI 5*RC*1.1 \SI{825}{\nano\second}. Slednja zahteva pomeni, da z stikalom, povezovalnimi žicami in konektorji smemo dodati maksimalno \SI{10}{\pico\farad}, saj drugače bo čas spraznitve skozi kratki stik odstopal zahtevanemu. Pri načrtovanju visokonapetostnega izvira je prav tako potrebno biti previden, saj mora zagotavljati \SI{15}{\kilo\volt} izolacije med primarno in sekundarno stranjo.
+
+	\subsection{Moduli simulatorja}
+	Simulator je sestavljen in 4 modulov, od katerih vsak opravlja posebno nalogo.
+	\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\columnwidth]{Sheme/Osnovna blok shema poenostavljena.pdf}
+    \caption{\label{BlokDiagramShema} Shema blok diagrama.}
+	\end{figure}
+	
+	\begin{itemize}
+		\item Glavni kontrolni modul: krmili visokonapetostni modul, prejema uporabnikove ukaze preko zaslona na dotik, pošilja podatke po LAN ali USB
+		\item Visokonapetostni kontrolni modul: krmili nastavljivi visokonapetostni napajalnik in razelektritveno vezje po ukazih glavnega kontrolega modula, varnostno odklaplja napajanje nastavljivega napajalnika, ko le ta ni v uporabi
+		\item Nastavljivi visokonapetostni napajalnik: po zahtevah regulira napetost od \SI{250}{\volt} do \SI{15}{\kilo\volt}
+		\item Razelektritveno vezje: sprazne naboj iz praznilnega kondenzatorja prek naprave pod testom
+	\end{itemize}
+
+	\subsection{Nastavljivi visokonapetostni napajalnik}
+	Začel sem z nastavljivim visokonapetostnim napajalnikom, saj sem pričakoval, da bo z njim največ dela in na koncu je tudi bilo tako. Z visokimi napetostmi nisem imel nobenih izkušenj, imel sem pa nekaj izkušenj z Cockcroft-Walton-ovim množilnikom napetosti. Hotel sem narediti stikalni napajalnik, kateri bi pretvarjal \SI{24}{\volt} v \SI{250}{\volt} za njim pa 60 stopenj množilnika. Regulaciji napetosti na transformatorju bi sledila tudi izhodna napetost množilnika. Po simulacijah, sem hitro ugotovil, da to ne bo delovalo po pričakovanjih, saj so kapacitivne izgube previsoke. Računi, simulacije koliko dodatnih stopenj blab albllablal. Našel sem pa članek, kjer so se soočali s podobnim problemom ~\cite{Using Parallel High Voltage Multipliers for 100kV Downhole Neutron Generator Power Supplies}, po simulacijah je rešitev izgledala obetavno. Zaradi navdušenja nad rezultati sem se lotil risanja sheme in tiskanega vezja v Altium Designerju. Na srečo smo mojo napako ugotovili, preden smo dali tiskano vezje v izdelavo. Za povratno zanko regulacije sem uporabil analogno-digitalni pretvornik s primerno dimenzinernem preduporom in s tem sem prekinil izolacijo med primarjem in sekundarjem. Sklenili smo, da bo verjetno najboljša možnost za dvigovanje napetosti samo z transformatorjem. Po povpraševanjih pri večjih ponudnikih elektronskih komponent sem prišel do zaključka, da primernega transformatorja ne bo možno kupiti vendar ga bo potrebno narediti.
+
+
 \chapter{Zahteve} \label{Zahteve}
 
 Pred začetnom snovanja simulatorja elektrostatične razelektritve so bila podane sledeče zahteve:

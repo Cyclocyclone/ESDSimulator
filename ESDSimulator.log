@@ -1,32 +1,28 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  13 JAN 2021 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.15)  15 MAR 2021 23:38
 entering extended mode
-**"C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ESDSimu
-lator v2/ESDSimulator.tex"
-
-("C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ESDSimul
-ator v2/ESDSimulator.tex"
-LaTeX2e <2020-10-01> patch level 3
-L3 programming layer <2020-12-07> xparse <2020-03-03>
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+**./ESDSimulator.tex
+(ESDSimulator.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03>
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
 File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count177
-\c@chapter=\count178
-\c@section=\count179
-\c@subsection=\count180
-\c@subsubsection=\count181
-\c@paragraph=\count182
-\c@subparagraph=\count183
-\c@figure=\count184
-\c@table=\count185
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-("C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ESDSimul
-ator v2\UNI-LJ-FE-Diploma.sty"
+(UNI-LJ-FE-Diploma.sty
 
 UNI-LJ-FE-Diploma 09/2017
 Stilska opcija za zakljucna dela na Fakulteti za elektrotehniko Univerze v Ljub
@@ -38,32 +34,33 @@ Dopolnil: Ales Hribar, 2006
 Dopolnil: Sebastjan Slajpah, 2013
 Dopolnil in precistil: Saso Tomazic, 2013
 Popravil po novi predlogi: Peter Miklavcic, 2019
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen139
-)) (C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
-y
+))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-) (C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count186
+\inf@bad=\count188
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count187
-\leftroot@=\count188
+\uproot@=\count189
+\leftroot@=\count190
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count189
-\DOTSCASE@=\count190
+\classnum@=\count191
+\DOTSCASE@=\count192
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -72,15 +69,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count191
-\c@MaxMatrixCols=\count192
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
 \dotsspace@=\muskip16
-\c@parentequation=\count193
-\dspbrk@lvl=\count194
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
 \tag@help=\toks16
-\row@=\count195
-\column@=\count196
-\maxfields@=\count197
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
 \andhelp@=\toks17
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
@@ -95,74 +92,67 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
-s.cfg
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
-def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
+ty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
-r.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
-inekeys.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
-sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkey
-s.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
-mds.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f-base.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -178,63 +168,61 @@ G,.JBIG2,.JB2,.eps]
 \epsfrsize=\dimen153
 \epsftmp=\dimen154
 \pspoints=\dimen155
-\xcelo=\count198
-\xdec=\count199
-\xxdec=\count266
-\xxxdec=\count267
-\ycelo=\count268
-\ydec=\count269
-\yydec=\count270
-\yyydec=\count271
-\tmpcount=\count272
+\xcelo=\count266
+\xdec=\count267
+\xxdec=\count268
+\xxxdec=\count269
+\ycelo=\count270
+\ydec=\count271
+\yydec=\count272
+\yyydec=\count273
+\tmpcount=\count274
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2020/12/16 3.52 The Babel package
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/03/03 3.55 The Babel package
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2020/12/16 3.52 Babel common definitions
-\babel@savecnt=\count273
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/03/03 3.55 Babel common definitions
+\babel@savecnt=\count275
 \U@D=\dimen156
 \l@babelnohyphens=\language79
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
-)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 )
-\bbl@dirlevel=\count274
+\bbl@dirlevel=\count276
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/babel-slovenian\slov
-ene.ldf
-Language: slovene 2005/03/31 v1.2m Slovene support from the babel system
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/babel-slovenian\slovene
+.ldf
+Language: slovene 2021/02/06 v1.2n Slovene support from the babel system
 Package babel Info: Making " an active character on input line 79.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/babel-greek\greek.ld
-f
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/babel-greek\greek.ldf
 Language: greek 2020/11/10 v1.10 Greek support for the babel system
-\bbl@monogreek=\count275
-\bbl@polygreek=\count276
-\bbl@ancientgreek=\count277
+\bbl@monogreek=\count277
+\bbl@polygreek=\count278
+\bbl@ancientgreek=\count279
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\lgrenc
-.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\lgrenc.de
+f
 File: lgrenc.def 2020/10/13 2.0 LGR Greek font encoding definitions
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/greek-inputenc\lgren
-c.dfu
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/greek-inputenc\lgrenc.d
+fu
 File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
    defining Unicode char U+00A8 (decimal 168)
    defining Unicode char U+00AB (decimal 171)
@@ -585,14 +573,14 @@ File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
    defining Unicode char U+10146 (decimal 65862)
    defining Unicode char U+10147 (decimal 65863)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\greek-
-fontenc.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\greek-fon
+tenc.def
 File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 ))
 LaTeX Info: Redefining \& on input line 125.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\englis
-h.ldf
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
@@ -606,11 +594,11 @@ Package babel Warning: Last declared language option is `slovene',
 (babel)                but the last processed one was `english'.
 (babel)                The main language cannot be set as both a global
 (babel)                and a package option. Use `main=slovene' as
-(babel)                option. Reported on input line 1135.
+(babel)                option. Reported on input line 1137.
 
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/filecontents\filecon
-tents.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/filecontents\fileconten
+ts.sty
 Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaT
 eX document
 
@@ -624,37 +612,35 @@ Package filecontents Warning: This package is obsolete. Disabling it and
 LaTeX Warning: File `ESDSimulator.xmpdata' already exists on the system.
                Not generating it from this source.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\pdfx.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\pdfx.sty
 Package: pdfx 2019/02/27 v1.6.3 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
-\pdfx@minorversion=\count278
+\pdfx@minorversion=\count280
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\everyshi-ltx.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\everyshi-ltx.sty
 Package: everyshi-ltx 2020/08/17 v1.0a Emulation of the original everyshi packa
 ge
 with kernel methods
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-){C:/Users/vo141609/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\l8u-penc.def
+){C:/Users/Oblak/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\l8u-penc.def
 File: l8u-penc.def 2017/06/23 v0.8 Custom LaTeX file, for UTF8 encoded letters 
 and symbols
 LaTeX Info: Composite with undeclared \b in encoding L8U on input line 278.
 )
 \pdfxsafeforxmp@toks=\toks23
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
-fg
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -669,107 +655,113 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 \pdfx@tmptoks=\toks24
+ (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
-y
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
-e.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxma
-cro.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen157
-\Hy@linkcounter=\count279
-\Hy@pagecounter=\count280
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+\Hy@linkcounter=\count281
+\Hy@pagecounter=\count282
+
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
+atches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.
-sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count281
-Package hyperref Info: Option `pdfa' set `true' on input line 4338.
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+\Hy@SavedSpaceFactor=\count283
+ (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc-greekbas
+ic.def
+File: puenc-greekbasic.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (
+greek block) (HO)
+))
+Package hyperref Info: Option `pdfa' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count282
- (C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count284
+ (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen158
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
-alc.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count283
+\Fld@menulength=\count285
 \Field@Width=\dimen159
 \Fld@charsize=\dimen160
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode ON on input line 6375.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode ON on input line 6103.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count284
-\c@Item=\count285
-\c@Hfootnote=\count286
+\Hy@abspage=\count286
+\c@Item=\count287
+\c@Hfootnote=\count288
 )
 Package hyperref Info: Driver: hpdftex.
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.s
-ty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count287
-\c@bookmark@seq@number=\count288
+\Fld@listcount=\count289
+\c@bookmark@seq@number=\count290
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
-filecheck.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
-uecounter.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -779,67 +771,59 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `unicode' set `true' on input line 1463.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
-)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringen
-c.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 Package hyperref Info: Option `psdextra' set `true' on input line 1465.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\psdextra.de
-f
-File: psdextra.def 2020-05-15 v7.00e Hyperref: Additions to PDF string support
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\psdextra.def
+File: psdextra.def 2021-02-27 v7.00k Hyperref: Additions to PDF string support
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colo
-rprofiles.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorpr
+ofiles.sty
 Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A sup
 port
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colo
-rprofiles.tex))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdo
-c.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorpr
+ofiles.tex))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.d
+ef
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\AdobeColorProfi
-les.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\AdobeColorProfiles
+.tex) (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
 ** pdfx: Metadata file ESDSimulator.xmpdata read successfully.
-
-("C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ESDSimul
-ator v2\ESDSimulator.xmpdata")<<sRGB.icc>>
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+(ESDSimulator.xmpdata)<<sRGB.icc>>
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.
-def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 )
 Package hyperref Info: Option `unicode' set `true' on input line 2411.
 Package hyperref Info: Option `unicode' set `true' on input line 2412.
- (C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+ (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounic
-ode.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-
-cmr.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-
-ntx.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode
+.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-cmr
+.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-ntx
+.tex) (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/xmpincl\xmpincl.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/xmpincl\xmpincl.sty
 Package: xmpincl 2008/05/10 v2.2 Include XMP data in pdflatex
-) (C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
 Using XMP template file: pdfa.xmp
@@ -848,10 +832,10 @@ Using XMP template file: pdfa.xmp
 \openout3 = `pdfa.xmpi'.
 
 <<pdfa.xmpi>>)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 26.
@@ -861,56 +845,54 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 26.
 Package hyperref Warning: Option `hyperindex' has already been used,
 (hyperref)                setting the option has no effect on input line 26.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box49
 \UL@hyphenbox=\box50
 \UL@skip=\skip53
 \UL@hook=\toks25
 \UL@height=\dimen161
-\UL@pe=\count289
+\UL@pe=\count291
 \UL@pixel=\dimen162
 \ULC@box=\box51
 Package: ulem 2019/11/18
 \ULdepth=\dimen163
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count290
+\c@float@type=\count292
 \float@exts=\toks26
 \float@box=\box52
 \@float@everytoks=\toks27
 \@floatcapt=\box53
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip54
 \enit@outerparindent=\dimen164
 \enit@toks=\toks28
 \enit@inbox=\box54
-\enit@count@id=\count291
-\enitdp@description=\count292
+\enit@count@id=\count293
+\enitdp@description=\count294
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2020-12-07 L3 programming layer (loader) 
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
-pdftex.def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count293
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box55
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
-arse.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
 Package: xparse 2020-10-27 L3 Experimental document command parser
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
-arse-generic.tex))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex))
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen165
 \ar@mcellbox=\box56
@@ -920,33 +902,33 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \backup@length=\skip56
 \ar@cellbox=\box57
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\
-l3keys2e.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
 Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box58
 \l__siunitx_tmp_dim=\dimen167
-\l__siunitx_tmp_int=\count294
-\l__siunitx_number_mantissa_length_int=\count295
-\l__siunitx_number_uncert_length_int=\count296
-\l__siunitx_round_int=\count297
-\l__siunitx_process_decimal_int=\count298
-\l__siunitx_process_uncertainty_int=\count299
-\l__siunitx_process_fixed_int=\count300
-\l__siunitx_process_integer_min_int=\count301
-\l__siunitx_process_precision_int=\count302
-\l__siunitx_group_min_int=\count303
+\l__siunitx_tmp_int=\count296
+\l__siunitx_number_mantissa_length_int=\count297
+\l__siunitx_number_uncert_length_int=\count298
+\l__siunitx_round_int=\count299
+\l__siunitx_process_decimal_int=\count300
+\l__siunitx_process_uncertainty_int=\count301
+\l__siunitx_process_fixed_int=\count302
+\l__siunitx_process_integer_min_int=\count303
+\l__siunitx_process_precision_int=\count304
+\l__siunitx_group_min_int=\count305
 \l__siunitx_angle_marker_box=\box59
 \l__siunitx_angle_unit_box=\box60
 \l__siunitx_angle_marker_dim=\dimen168
 \l__siunitx_angle_unit_dim=\dimen169
-\l__siunitx_unit_int=\count304
-\l__siunitx_unit_denominator_int=\count305
-\l__siunitx_unit_numerator_int=\count306
-\l__siunitx_unit_prefix_int=\count307
-\l__siunitx_unit_prefix_base_int=\count308
-\l__siunitx_unit_prefix_gram_int=\count309
-\l__siunitx_number_product_int=\count310
+\l__siunitx_unit_int=\count306
+\l__siunitx_unit_denominator_int=\count307
+\l__siunitx_unit_numerator_int=\count308
+\l__siunitx_unit_prefix_int=\count309
+\l__siunitx_unit_prefix_base_int=\count310
+\l__siunitx_unit_prefix_gram_int=\count311
+\l__siunitx_number_product_int=\count312
 \c__siunitx_one_fill_skip=\skip57
 \l__siunitx_table_unit_align_skip=\skip58
 \l__siunitx_table_exponent_dim=\dimen170
@@ -965,36 +947,33 @@ Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_number_align_skip=\skip59
 \l__siunitx_table_text_align_skip=\skip60
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
-r.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty
 Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.
-sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count311
-\calc@Bcount=\count312
+\calc@Acount=\count313
+\calc@Bcount=\count314
 \calc@Adimen=\dimen179
 \calc@Bdimen=\dimen180
 \calc@Askip=\skip61
 \calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count313
+\calc@Ccount=\count315
 \calc@Cskip=\skip63
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count314
+\g_MT_multlinerow_int=\count316
 \l_MT_multwidth_dim=\dimen181
 \origjot=\skip64
 \l_MT_shortvdotswithinadjustabove_dim=\dimen182
@@ -1005,8 +984,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen187
 \xmathstrut@box=\box65
 \xmathstrut@dim=\dimen188
-)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\bm.sty
+) (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
@@ -1014,58 +992,56 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/grffile\grffile.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/grffile\grffile.sty
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
 y)
 Package grffile Info: This package is an empty stub for compatibility on input 
 line 40.
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/circuitikz\circuitik
-z.sty
-Package: circuitikz 2020/12/27{} The CircuiTikz circuit drawing package version
- 1.2.7
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
-kz.sty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/circuitikz\circuitikz.s
 ty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
-.sty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-common.tex
+Package: circuitikz 2021/02/20{} The CircuiTikz circuit drawing package version
+ 1.3.1
+
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
 \pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen189
 \pgfutil@tempdimb=\dimen190
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-common-lists.tex))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-latex.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
 \pgfutil@abb=\box66
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
-cs.code.tex
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
-ex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
-re.sty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
-ys.sty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
 \pgfkeys@pathtoks=\toks31
 \pgfkeys@temptoks=\toks32
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eysfiltered.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
 \pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen191
@@ -1080,84 +1056,84 @@ eysfiltered.code.tex
 \pgf@yd=\dimen256
 \w@pgf@writea=\write4
 \r@pgf@reada=\read5
-\c@pgf@counta=\count315
-\c@pgf@countb=\count316
-\c@pgf@countc=\count317
-\c@pgf@countd=\count318
+\c@pgf@counta=\count317
+\c@pgf@countb=\count318
+\c@pgf@countc=\count319
+\c@pgf@countd=\count320
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count319
+\pgf@sys@id@count=\count321
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-f.cfg
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-pdftex.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
 File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-common-pdf.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsyssoftpath.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count320
-\pgfsyssoftpath@bigbuffer@items=\count321
+\pgfsyssoftpath@smallbuffer@items=\count322
+\pgfsyssoftpath@bigbuffer@items=\count323
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsysprotocol.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-core.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
-lc.code.tex
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
-il.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
-rser.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
 \pgfmath@dimen=\dimen257
-\pgfmath@count=\count322
+\pgfmath@count=\count324
 \pgfmath@box=\box67
 \pgfmath@toks=\toks37
 \pgfmath@stack@operand=\toks38
 \pgfmath@stack@operation=\toks39
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.code.tex
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.basic.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.trigonometric.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.random.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.comparison.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.base.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.round.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.misc.code.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.integerarithmetics.code.tex)))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
-oat.code.tex
-\c@pgfmathroundto@lastzeros=\count323
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count325
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
-de.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepoints.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen258
 \pgf@picmaxx=\dimen259
@@ -1174,135 +1150,134 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@zx=\dimen270
 \pgf@zy=\dimen271
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathconstruct.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen272
 \pgf@path@lasty=\dimen273
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathusage.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen274
 \pgf@shorten@start@additional=\dimen275
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corescopes.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box68
 \pgf@hbox=\box69
 \pgf@layerbox@main=\box70
-\pgf@picture@serial@count=\count324
+\pgf@picture@serial@count=\count326
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coregraphicstate.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen276
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransformations.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@x=\dimen277
 \pgf@pt@y=\dimen278
 \pgf@pt@temp=\dimen279
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corequick.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreobjects.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathprocessing.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corearrows.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowsep=\dimen280
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreshade.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen281
-\pgf@sys@shading@range@num=\count325
-\pgf@shadingcount=\count326
+\pgf@sys@shading@range@num=\count327
+\pgf@shadingcount=\count328
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreimage.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreexternal.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box71
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corelayers.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransparency.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepatterns.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corerdf.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleshapes.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfnodeparttextbox=\box72
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleplot.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-0-65.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@nodesepstart=\dimen282
 \pgf@nodesepend=\dimen283
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-1-18.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
-.sty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
-s.sty
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
-or.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
 \pgffor@iter=\dimen284
 \pgffor@skip=\dimen285
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz\tikz.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryplothandlers.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count327
+\pgf@plot@mark@count=\count329
 \pgfplotmarksize=\dimen286
 )
 \tikz@lastx=\dimen287
@@ -1317,51 +1292,51 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
 \tikz@tempbox@bg=\box76
-\tikztreelevel=\count328
-\tikznumberofchildren=\count329
-\tikznumberofcurrentchild=\count330
-\tikz@fig@count=\count331
+\tikztreelevel=\count330
+\tikznumberofchildren=\count331
+\tikznumberofcurrentchild=\count332
+\tikz@fig@count=\count333
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-ulematrix.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count332
-\pgfmatrixcurrentcolumn=\count333
-\pgf@matrix@numberofcolumns=\count334
+\pgfmatrixcurrentrow=\count334
+\pgfmatrixcurrentcolumn=\count335
+\pgf@matrix@numberofcolumns=\count336
 )
-\tikz@expandcount=\count335
+\tikz@expandcount=\count337
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarytopaths.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarycalc.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryarrows.meta.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowinset=\dimen295
 \pgfarrowlength=\dimen296
 \pgfarrowwidth=\dimen297
 \pgfarrowlinewidth=\dimen298
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarybending.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarybending.code.tex
 File: tikzlibrarybending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-ulebending.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+bending.code.tex
 File: pgfmodulebending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-ulenonlineartransformations.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+nonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgftransformnonlinearflatness=\dimen299
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibrarycurvilinear.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+arycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@curvilinear@time@a=\dimen300
 \pgf@curvilinear@length@a=\dimen301
@@ -1371,15 +1346,15 @@ File: pgflibrarycurvilinear.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 \pgf@arrows@the@rigidity=\dimen305
 ))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryfpu.code.tex
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryfpu.code.tex))
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-.defines.tex
-\pgf@circ@count@a=\count336
-\pgf@circ@count@b=\count337
-\pgf@circ@count@c=\count338
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfpu.code.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc.de
+fines.tex
+\pgf@circ@count@a=\count338
+\pgf@circ@count@b=\count339
+\pgf@circ@count@c=\count340
 \pgf@circ@res@up=\dimen306
 \pgf@circ@res@down=\dimen307
 \pgf@circ@res@zero=\dimen308
@@ -1392,94 +1367,91 @@ ibraryfpu.code.tex))
 \pgf@circ@scaled@Rlen=\dimen315
 \pgfstartlinewidth=\dimen316
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-utils.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-shapes.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-monopoles.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-bipoles.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-tripoles.tex
-\pgf@circ@res@count=\count339
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircuti
+ls.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircpat
+h.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircsha
+pes.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmon
+opoles.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircbip
+oles.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirctri
+poles.tex
+\pgf@circ@res@count=\count341
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-quadpoles.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-multipoles.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-label.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-voltage.tex
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircqua
+dpoles.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmul
+tipoles.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirclab
+el.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircvol
+tage.tex
 \pgfcirc@labelshift=\dimen317
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-current.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-flow.tex)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc
-path.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirccur
+rent.tex)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircflo
+w.tex))
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
-Package circuitikz Warning: You did not specify one of the voltage directions:
-(circuitikz)                  oldvoltagedirection, nooldvoltagedirection, 
-(circuitikz)                  RPvoltages or EFvoltages 
-(circuitikz)                Default directions may have changed, 
-(circuitikz)                please check the manual.
-
-)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.st
-y
-Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen318
 \ESO@tempdimb=\dimen319
 )
 \AM@pagewidth=\dimen320
 \AM@pageheight=\dimen321
+\AM@fboxrule=\dimen322
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.de
-f
-File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
+\pdfpages@includegraphics@status=\count342
 \AM@pagebox=\box77
 \AM@global@opts=\toks42
-\AM@pagecnt=\count340
+\AM@pagecnt=\count343
 \AM@toc@title=\toks43
-\c@AM@survey=\count341
+\c@AM@survey=\count344
 \AM@templatesizebox=\box78
-)
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
-y
-\lst@mode=\count342
+) (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count345
 \lst@gtempboxa=\box79
 \lst@token=\toks44
-\lst@length=\count343
-\lst@currlwidth=\dimen322
-\lst@column=\count344
-\lst@pos=\count345
-\lst@lostspace=\dimen323
-\lst@width=\dimen324
-\lst@newlines=\count346
-\lst@lineno=\count347
-\lst@maxwidth=\dimen325
+\lst@length=\count346
+\lst@currlwidth=\dimen323
+\lst@column=\count347
+\lst@pos=\count348
+\lst@lostspace=\dimen324
+\lst@width=\dimen325
+\lst@newlines=\count349
+\lst@lineno=\count350
+\lst@maxwidth=\dimen326
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count348
-\lst@skipnumbers=\count349
+\c@lstnumber=\count351
+\lst@skipnumbers=\count352
 \lst@framebox=\box80
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cf
-g
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(ESDSimulator.aux
 
-("C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ESDSimul
-ator v2\ESDSimulator.aux")
+LaTeX Warning: Label `ESDTesterShemaOsnovna' multiply defined.
+
+
+LaTeX Warning: Label `BlokDiagramShema' multiply defined.
+
+
+LaTeX Warning: Label `BlokDiagramShema' multiply defined.
+
+)
 \openout1 = `ESDSimulator.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -1499,8 +1471,7 @@ LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 8
 5.
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+ (C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 85.
@@ -1509,47 +1480,47 @@ LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
-.mkii
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen326
+\scratchcounter=\count353
+\scratchdimen=\dimen327
 \scratchbox=\box81
-\nofMPsegments=\count351
-\nofMParguments=\count352
+\nofMPsegments=\count354
+\nofMParguments=\count355
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen327
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen328
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
 \everyMPtoPDFconversion=\toks46
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\puenc-
-greek.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\puenc-gre
+ek.def
 File: puenc-greek.def 2020/10/18 2.0 Greek LICRs for PDF strings
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\greek-
-fontenc.def
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\greek-fon
+tenc.def
 File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 ))
 Package hyperref Info: Link coloring OFF on input line 85.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
-y
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
-titlestring.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count356
+\c@section@level=\count359
 )
 LaTeX Info: Redefining \ref on input line 85.
 LaTeX Info: Redefining \pageref on input line 85.
 LaTeX Info: Redefining \nameref on input line 85.
+ (ESDSimulator.out) (ESDSimulator.out)
 \@outlinefile=\write5
 \openout5 = `ESDSimulator.out'.
 
@@ -1565,25 +1536,24 @@ LaTeX Info: Redefining \ohm on input line 85.
 Package gensymb Info: Using \textohm for \ohm on input line 85.
 Package gensymb Info: Using \textmu for \micro on input line 85.
 
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbr
-eviations.cfg
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbrevi
+ations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
-r-basic-dictionary-English.dict
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.
-sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(C:\Users\vo141609\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\Oblak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count357
- [1
+\c@lstlisting=\count360
+
+[1
 
 
 ] [2] [3
@@ -1609,7 +1579,7 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 
 [8
 
-]
+] (ESDSimulator.toc)
 \tf@toc=\write6
 \openout6 = `ESDSimulator.toc'.
 
@@ -1620,22 +1590,25 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 
 [10
 
-]
+] (ESDSimulator.lof)
 \tf@lof=\write7
 \openout7 = `ESDSimulator.lof'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[12
-
-]
+[12] (ESDSimulator.lot)
 \tf@lot=\write8
 \openout8 = `ESDSimulator.lot'.
 
- [13]
+ [13
+
+]
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
@@ -1651,26 +1624,28 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 
 ]
   1.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+[1
 
 ]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}
+[2]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.188 \chapter
-              {Zahteve} \label{Zahteve}]
-  2.
-[3
-
-]
+l.197 \chapter
+              {Simulator elektrostatične razelektritve} \label{ESDSIM}]
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
@@ -1678,47 +1653,42 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [4
 
 ]
-  3.
+  2.
+[5]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
 
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.249 	\subsection
+                  {Moduli simulatorja}]
 
-pdfTeX warning: pdflatex (file C:/Users/vo141609/OneDrive - Renishaw plc/Docume
-nts/Diplomska Naloga/ESDSimulator v2/Sheme/Osnovna blok shema poenostavljena.pd
+pdfTeX warning: pdflatex.exe (file ./Sheme/Osnovna blok shema poenostavljena.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Sheme/Osnovna blok shema poenostavljena.pdf, id=111, 436.63126pt x 237.88875pt
+<Sheme/Osnovna blok shema poenostavljena.pdf, id=192, 436.63126pt x 237.88875pt
 >
 File: Sheme/Osnovna blok shema poenostavljena.pdf Graphic file (type pdf)
 <use Sheme/Osnovna blok shema poenostavljena.pdf>
 Package pdftex.def Info: Sheme/Osnovna blok shema poenostavljena.pdf  used on i
-nput line 222.
+nput line 253.
 (pdftex.def)             Requested size: 412.56496pt x 224.777pt.
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.235 
-       <C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ES
-DSimulator v2/Sheme/Osnovna blok shema poenostavljena.pdf>]
+
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.321     	\item
-                 GA3459 proizvajalca CoilCraft]
+l.262 	\end{itemize}
+                     <./Sheme/Osnovna blok shema poenostavljena.pdf>]
 
 LaTeX Warning: Citation `Using Parallel High Voltage Multipliers for 100kV Down
-hole Neutron Generator Power Supplies' on page 7 undefined on input line 336.
-
-
-Overfull \hbox (2.61108pt too wide) has occurred while \output is active
-[] 
- []
-
-[7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+hole Neutron Generator Power Supplies' on page 8 undefined on input line 265.
 
 
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
@@ -1726,80 +1696,29 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
  []
 
 [8]
+  3.
+[9
+
+]
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[9]
-Overfull \hbox (2.61108pt too wide) has occurred while \output is active
-[] 
- []
+[10
 
-[10]
+]
   4.
-<Slike/MedlerElectronicsRele.png, id=163, 602.25pt x 475.7775pt>
-File: Slike/MedlerElectronicsRele.png Graphic file (type png)
-<use Slike/MedlerElectronicsRele.png>
-Package pdftex.def Info: Slike/MedlerElectronicsRele.png  used on input line 42
-1.
-(pdftex.def)             Requested size: 412.56496pt x 325.94191pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
-has been already used, duplicate ignored
+File: Sheme/Osnovna blok shema poenostavljena.pdf Graphic file (type pdf)
+<use Sheme/Osnovna blok shema poenostavljena.pdf>
+Package pdftex.def Info: Sheme/Osnovna blok shema poenostavljena.pdf  used on i
+nput line 302.
+(pdftex.def)             Requested size: 412.56496pt x 224.777pt.
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.424     ~
-           \\Po specifikacijah bo največji tok čez rele 10A, saj imamo mak...
-]
-! Undefined control sequence.
-<argument> \Ohm 
-                
-l.424 ...in \SI{100}{\pico\farad} na \SI{10}{\Ohm}
-                                                   in \SI{10}{\nano\farad} k...
-
-? 
-! Undefined control sequence.
-<argument> \Ohm 
-                
-l.424 ...in \SI{100}{\pico\farad} na \SI{10}{\Ohm}
-                                                   in \SI{10}{\nano\farad} k...
-
-? 
-
-! Package siunitx Error: Prefix with no unit.
-
-Type <return> to continue.
- ...                                              
-                                                  
-l.424 ...lepo vidi razklenitev pri \SI{40}{\micro}
-                                                  s in \SI{55}{\micro}s. Po ...
-
-? 
-
-! Package siunitx Error: Prefix with no unit.
-
-Type <return> to continue.
- ...                                              
-                                                  
-l.424 ...v pri \SI{40}{\micro}s in \SI{55}{\micro}
-                                                  s. Po ponovitvah sem ugoto...
-
-? 
-
-! Package siunitx Error: Prefix with no unit.
-
-Type <return> to continue.
- ...                                              
-                                                  
-l.424 ...ndard dovoljuje maksimalno \SI{20}{\nano}
-                                                  s deviacije časovne konst...
-
-? 
-
+l.315 
+      ]
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
@@ -1808,49 +1727,83 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.426 
-       <C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ES
-DSimulator v2/Slike/MedlerElectronicsRele.png>]
+l.434 
+      ]
 
-! Package siunitx Error: Prefix with no unit.
+LaTeX Warning: Citation `Using Parallel High Voltage Multipliers for 100kV Down
+hole Neutron Generator Power Supplies' on page 13 undefined on input line 452.
 
-Type <return> to continue.
- ...                                              
+
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.427 ...naših primerih bi bile od \SI{12}{\nano}
-                                                  s do \SI{25}{\nano}s. Kar ...
+l.453 
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-? 
 
-! Package siunitx Error: Prefix with no unit.
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
 
-Type <return> to continue.
- ...                                              
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[15]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[16]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[17]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+[18
+
+]
+  5.
+<Slike/MedlerElectronicsRele.png, id=266, 602.25pt x 475.7775pt>
+File: Slike/MedlerElectronicsRele.png Graphic file (type png)
+<use Slike/MedlerElectronicsRele.png>
+Package pdftex.def Info: Slike/MedlerElectronicsRele.png  used on input line 53
+3.
+(pdftex.def)             Requested size: 412.56496pt x 325.94191pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.427 ...bile od \SI{12}{\nano}s do \SI{25}{\nano}
-                                                  s. Kar je precej več kot ...
+l.536     ~
+           \\Po specifikacijah bo največji tok čez rele \SI{10}{\ampere}, ...
+]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
 
-? 
-
-! Package siunitx Error: Prefix with no unit.
-
-Type <return> to continue.
- ...                                              
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.427 ...}s. Kar je precej več kot \SI{10}{\nano}
-                                                  s kot jih zahteva standard...
-
-? 
-
-! Package siunitx Error: Prefix with no unit.
-
-Type <return> to continue.
- ...                                              
-                                                  
-l.428 ...jo tipični odpiralni čas \SI{55}{\nano}
-                                                  s kar je še vedno 5.5 kra...
-
-? 
+l.538 
+       <./Slike/MedlerElectronicsRele.png>]
 Missing character: There is no ; in font nullfont!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1860,32 +1813,30 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[13]
+[21]
 
-LaTeX Warning: Citation `doi:10.1063/1.1143294' on page 14 undefined on input l
-ine 470.
+LaTeX Warning: Citation `doi:10.1063/1.1143294' on page 22 undefined on input l
+ine 582.
 
 
 
-pdfTeX warning: pdflatex (file C:/Users/vo141609/OneDrive - Renishaw plc/Docume
-nts/Diplomska Naloga/ESDSimulator v2/Sheme/StikaloSolenoidVerzija1.pdf): PDF in
+pdfTeX warning: pdflatex.exe (file ./Sheme/StikaloSolenoidVerzija1.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Sheme/StikaloSolenoidVerzija1.pdf, id=179, 542.77782pt x 156.585pt>
+<Sheme/StikaloSolenoidVerzija1.pdf, id=280, 542.77782pt x 156.585pt>
 File: Sheme/StikaloSolenoidVerzija1.pdf Graphic file (type pdf)
 <use Sheme/StikaloSolenoidVerzija1.pdf>
 Package pdftex.def Info: Sheme/StikaloSolenoidVerzija1.pdf  used on input line 
-477.
+589.
 (pdftex.def)             Requested size: 412.56496pt x 119.02493pt.
 
 
-pdfTeX warning: pdflatex (file C:/Users/vo141609/OneDrive - Renishaw plc/Docume
-nts/Diplomska Naloga/ESDSimulator v2/Sheme/StikaloSolenoidVerzija2.pdf): PDF in
+pdfTeX warning: pdflatex.exe (file ./Sheme/StikaloSolenoidVerzija2.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Sheme/StikaloSolenoidVerzija2.pdf, id=180, 536.0025pt x 156.585pt>
+<Sheme/StikaloSolenoidVerzija2.pdf, id=281, 536.0025pt x 156.585pt>
 File: Sheme/StikaloSolenoidVerzija2.pdf Graphic file (type pdf)
 <use Sheme/StikaloSolenoidVerzija2.pdf>
 Package pdftex.def Info: Sheme/StikaloSolenoidVerzija2.pdf  used on input line 
-484.
+596.
 (pdftex.def)             Requested size: 412.56496pt x 120.52303pt.
 
 Underfull \vbox (badness 2529) has occurred while \output is active []
@@ -1895,37 +1846,34 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.487 
+l.599 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.4}) has been already used, duplicate ignored
+5.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.487 
-       <C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ES
-DSimulator v2/Sheme/StikaloSolenoidVerzija1.pdf>]
+l.599 
+       <./Sheme/StikaloSolenoidVerzija1.pdf>]
 
-pdfTeX warning: pdflatex (file C:/Users/vo141609/OneDrive - Renishaw plc/Docume
-nts/Diplomska Naloga/ESDSimulator v2/Sheme/StikaloServoVerzija1.pdf): PDF inclu
+pdfTeX warning: pdflatex.exe (file ./Sheme/StikaloServoVerzija1.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Sheme/StikaloServoVerzija1.pdf, id=197, 496.85625pt x 304.13625pt>
+<Sheme/StikaloServoVerzija1.pdf, id=296, 496.85625pt x 304.13625pt>
 File: Sheme/StikaloServoVerzija1.pdf Graphic file (type pdf)
 <use Sheme/StikaloServoVerzija1.pdf>
-Package pdftex.def Info: Sheme/StikaloServoVerzija1.pdf  used on input line 491
+Package pdftex.def Info: Sheme/StikaloServoVerzija1.pdf  used on input line 603
 .
 (pdftex.def)             Requested size: 412.56496pt x 252.54439pt.
 
 
-pdfTeX warning: pdflatex (file C:/Users/vo141609/OneDrive - Renishaw plc/Docume
-nts/Diplomska Naloga/ESDSimulator v2/Sheme/StikaloServoVerzija2.pdf): PDF inclu
+pdfTeX warning: pdflatex.exe (file ./Sheme/StikaloServoVerzija2.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Sheme/StikaloServoVerzija2.pdf, id=198, 572.1375pt x 316.18124pt>
+<Sheme/StikaloServoVerzija2.pdf, id=297, 572.1375pt x 316.18124pt>
 File: Sheme/StikaloServoVerzija2.pdf Graphic file (type pdf)
 <use Sheme/StikaloServoVerzija2.pdf>
-Package pdftex.def Info: Sheme/StikaloServoVerzija2.pdf  used on input line 498
+Package pdftex.def Info: Sheme/StikaloServoVerzija2.pdf  used on input line 610
 .
 (pdftex.def)             Requested size: 412.56496pt x 227.99768pt.
 
@@ -1936,30 +1884,27 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.501 \end{enumerate}
+l.613 \end{enumerate}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.4.6}) has been already used, duplicate ignored
+r (name{figure.5.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.501 \end{enumerate}
-                      <C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Dipl
-omska Naloga/ESDSimulator v2/Sheme/StikaloSolenoidVerzija2.pdf> <C:/Users/vo141
-609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ESDSimulator v2/Sheme/St
-ikaloServoVerzija1.pdf
+l.613 \end{enumerate}
+                      <./Sheme/StikaloSolenoidVerzija2.pdf> <./Sheme/StikaloSer
+voVerzija1.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/vo141609/OneDrive - Renishaw plc/Docume
-nts/Diplomska Naloga/ESDSimulator v2/Sheme/StikaloServoVerzija1.pdf): PDF inclu
+pdfTeX warning: pdflatex.exe (file ./Sheme/StikaloServoVerzija1.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-<Slike/ServoStikalo1/ServoStikalo1.png, id=223, 803.0pt x 481.8pt>
+<Slike/ServoStikalo1/ServoStikalo1.png, id=319, 803.0pt x 481.8pt>
 File: Slike/ServoStikalo1/ServoStikalo1.png Graphic file (type png)
 <use Slike/ServoStikalo1/ServoStikalo1.png>
 Package pdftex.def Info: Slike/ServoStikalo1/ServoStikalo1.png  used on input l
-ine 511.
+ine 623.
 (pdftex.def)             Requested size: 412.56496pt x 247.5453pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1969,18 +1914,17 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.514 
-       <C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ES
-DSimulator v2/Sheme/StikaloServoVerzija2.pdf>]
-<Slike/ServoStikalo1/ServoStikalo1povecano.png, id=237, 803.0pt x 481.8pt>
+l.626 
+       <./Sheme/StikaloServoVerzija2.pdf>]
+<Slike/ServoStikalo1/ServoStikalo1povecano.png, id=332, 803.0pt x 481.8pt>
 File: Slike/ServoStikalo1/ServoStikalo1povecano.png Graphic file (type png)
 <use Slike/ServoStikalo1/ServoStikalo1povecano.png>
 Package pdftex.def Info: Slike/ServoStikalo1/ServoStikalo1povecano.png  used on
- input line 517.
+ input line 629.
 (pdftex.def)             Requested size: 412.56496pt x 247.5453pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1990,30 +1934,28 @@ Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.520 
-       <C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplomska Naloga/ES
-DSimulator v2/Slike/ServoStikalo1/ServoStikalo1.png (PNG copy)>]
+l.632 
+       <./Slike/ServoStikalo1/ServoStikalo1.png (PNG copy)>]
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.525 \end{document}
-                     <C:/Users/vo141609/OneDrive - Renishaw plc/Documents/Diplo
-mska Naloga/ESDSimulator v2/Slike/ServoStikalo1/ServoStikalo1povecano.png (PNG 
-copy)>] (ESDSimulator.aux)
+l.637 \end{document}
+                     <./Slike/ServoStikalo1/ServoStikalo1povecano.png (PNG copy
+)>] (ESDSimulator.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package rerunfilecheck Warning: File `ESDSimulator.out' has changed.
@@ -2021,33 +1963,33 @@ Package rerunfilecheck Warning: File `ESDSimulator.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ESDSimulator.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F2F81282D662CCE5FD4D7CFB85850B99;706.
+(rerunfilecheck)             Before: 1784281318DD377192DD5D063517F6E9;1588
+(rerunfilecheck)             After:  DAF733438275CD146A9362DE60AABB55;1851.
  ) 
 Here is how much of TeX's memory you used:
- 45968 strings out of 479624
- 1020603 string characters out of 2863723
- 1441369 words of memory out of 3000000
- 62426 multiletter control sequences out of 15000+200000
+ 45933 strings out of 479334
+ 1029287 string characters out of 2857084
+ 1485847 words of memory out of 3000000
+ 62648 multiletter control sequences out of 15000+200000
  417943 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 97i,12n,94p,1670b,2371s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\vo141609\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
-crm1200.pk><C:/Users/vo141609/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/vo141609/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/vo141609/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vo141609/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/vo141609
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
-rs/vo141609/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Users/vo141609/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr17.pfb><C:/Users/vo141609/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><C:/Users/vo141609/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/vo141609/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ESDSimulator.pdf (34 pages, 482445 bytes).
+ 102i,12n,102p,1761b,2366s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Oblak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/Oblak/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/Oblak/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbxti10.pfb><C:/Users/Oblak/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Oblak/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Oblak/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Oblak/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Oblak/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
+/Oblak/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Users/Oblak/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl
+12.pfb><C:/Users/Oblak/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb>
+Output written on ESDSimulator.pdf (42 pages, 505588 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
