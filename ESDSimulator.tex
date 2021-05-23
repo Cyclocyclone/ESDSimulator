@@ -298,7 +298,7 @@ UCC28740-Q1 & Texas Instruments & Optoizolator \\
 LM5155 & Texas Instruments & Optoizolator \\
 LT3748 & Linear Technology & Zaznavnje na primarnem navitju \\
 LT3757 & Linear Technology & Napetostni delilnik na izhodu \\
-LTNEKIBrezFeta & Linear Technology & Zaznavanje na primarnem navitju \\
+LT8304 & Linear Technology & Zaznavanje na primarnem navitju \\
 LTNEKINEKI & Linear Technology & Pomožno navitje \\ [1ex]
 \hline
 \end{tabular}
@@ -315,7 +315,7 @@ LM5155 deluje po enakem principu kot že omenjeni UCC28740-Q1.
 Krmilnik je zelo zanimiv, saj ne potrebuje dodatne povratne vezave, informacijo o izhodni napetosti namreč dobi preko zrcaljene napetosti na primarnem navitju. Ko se izključi N Kanalni MOSFET, napetost na ponoru zraste nad vhodno napetost, katera je enaka \(V_{FLBK} = (V_{OUT} + V_F + I_{SEC} * ESR) * N_{PS}) \), ta napetost steče proti masi preko \(R_{FB}\) in interno zaporedno vezanim \(R_{REF}\), točka med uporoma je vezana na ivertirajoči vhod ojačevalnika napake z referenco \SI{1.223}{\volt} \cite{analog:LT3748}. Izhodna napetost je enaka \(V_{OUT} = V_{BG}(R_{FB} / R_{REF})(1 / N_{PS}) - V_F - I_{SEC} (ESR)\), kjer lahko pri naših napetostih zanemarimo \(V_F\) in \(I_SEC (ESR)\), upoštevati pa moramo tudi zahteve za minimalno induktivnost primarnega navitja:
 \[L_{PRI} \geq \]
 
-	\subsection{LM3757} \label{LM3757}
+	\subsubsection{LM3757} \label{LM3757}
 Krmilnik LM3757 proizvajalca Linear Technology je krmilnik pri kateremu se nastavlja obratovalno frekvenco z enim uporom v razponu med \SI{100} {\kilo\hertz} in \SI{1} {\mega\hertz}. Napetost se nastavlja z napetostnim delilnikom na sekundarni strani, da pri željeni izhodni napetosti je izhod napetostnega delilnika enak \SI{1.6} {\volt}. Na spletni strani od produkta je bilo možno dobiti vezje regulatorja, katermu sem spremenil vrednosti določenih elementov po mojih potrebah. Po nekaj simulacijah je hitro postalo jasno, da je omenjeni krmilnik primeren za projekt, saj sem uspel nastavljati izodno napetost med \SI{300}{\volt} in \SI{5}{\kilo\volt}. 
 
     \begin{figure}[H]
@@ -325,7 +325,14 @@ Krmilnik LM3757 proizvajalca Linear Technology je krmilnik pri kateremu se nasta
     \end{figure}
     
 Vendar je problem iz vidika varnosti, sekundarno navitje visokonapetostnega transformatorja je električno povezan z nizkonapetostno stranjo. Za zagotavljanje primerne izolacije bi moral napajalnik modula zdržati \SI{15}{\kilo\volt}, kar zopet pomeni načrtovanje takega napajalnika saj napajalniki z najvišjo prebojno trdnostjo so takšni pod certifikatom IEC 60601-1 po katerem je najvišja prebojna trdnost \SI{4000}{\volt}AC.
-    
+
+	\subsubsection{LM8304} \label{LM8304}
+LM8304 proizvajalca Linear Technology deluje po podobnem principu kot LM3748 z razliko, da ima vgrajen MOSFET in posledično manjšo izhodno moč. Simulacije so bile obetavne vendar sem jih vzel z rezervo zaradi netočnosti modela transformatorja. Vseeno sem se odločil naspajkati krmilnik in pripadajoče komponente na prototipno ploščico. Vezje je delovalno po pričakovanjih, vendar po približno 20 sekundah se je pokadilo iz krmilnika. Mislil sem, da je to bil samo problem z dotičnim krmilnikom in sem uporabil novega. Tudi pri temu se je pokadilo. Dotični krmilnik ima maksimalno moč \SI{24}{\watt} vendar pri meritvah moč ni presegla \SI{10}{\watt}. Potrebno se je pa zavedati, da je bil na izhodu napajalnika kondenzator z \SI{4700}{\micro\farad}, zaradi katerega napajalnik ni pokazal visokih tokovnih špic. Drugi del, ker bi lahko prihajalo do napake je na pinu SW, kateri je ponor internega MOSFETa in lahko, da inducirana napetost na primarnem navitju je višja od \(U_{DS MAX}\) in posledično poškoduje čip. Podatkovni list narekuje uporabo shotky in zener diodo s pragovno napetostjo \(V_{Zenner(MAX)} \leq 145V - V_{IN(MAX)}\) proti napajalni liniji za odvajanje prenapetostnih špic. V mojem primeru sem uporabil zener diodo z pragovno napetostjo \SI{100}{\volt} vendar očitno ni bila dovolj. Imel sem še en krmilnik pri katerem sem namesto priporočene prenapetostne zaščite uporabil TVS diodo z nominalno napetostjo \SI{70}{\volt} in maksimalnim tokom \SI{26.5}{\ampere}. Toda rezultat je bil še vedno isti.
+
+    \subsubsection{Ugotovitve} \label{Ugotovitve}
+Po vseh simulcijah se je izkazalo, da ne bo mogoče uporabiti že narejenega krmilnika vendar bo potrebno tudi krmilnik načrtovati iz od začetka. Možna rešitev je tudi uporaba baterijskega napajanja za visokonapetostni napajalnik, vendar je potrebno med polnilnik in baterijo vstaviti odklopnik kateri ima prebojno napetost vsaj \SI{15}{\kilo\volt}. Takšen odklopnik zopet pomeni nekaj zelo specifičnega in dragega ali pa samo izdelava.
+
+
 \chapter{Zahteve} \label{Zahteve}
 
 Pred začetnom snovanja simulatorja elektrostatične razelektritve so bila podane sledeče zahteve:
