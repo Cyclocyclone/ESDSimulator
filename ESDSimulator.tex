@@ -244,7 +244,7 @@ Princip delovanja simulatorja elektrostatične razelektritve je dokaj enostaven.
           \caption{\label{ESDTesterShemaOsnovna} Osnovna shema ESD simulatorja.}
     \end{figure}
     
-	Sestavljajo ga nastavljivi visokonapetostni izvir, polnilni upor, praznilni kondenzator, praznilni upor ter ne-preskakovalno (t.i. bounce-less) stikalo. Preko polnilnega upora se napolni praznilni kondenzator na željeno vrednost, katerega se v željenem trenutku preko praznilnega upora sprazni skozi napravo pod testom. Izhodni tok mora vstrezati limitam katere so podane v standardih: dvižni čas mora biti manjši kot \SI{10}{\nano\second} ter čas praznenja kondenzatorja skozi kratki stik mora biti manjši kot NEKINEKINEKI SE MI ZDI 5*RC*1.1 \SI{825}{\nano\second}. Slednja zahteva pomeni, da z stikalom, povezovalnimi žicami in konektorji smemo dodati maksimalno \SI{10}{\pico\farad}, saj drugače bo čas spraznitve skozi kratki stik odstopal zahtevanemu. Pri načrtovanju visokonapetostnega izvira je prav tako potrebno biti previden, saj mora zagotavljati \SI{15}{\kilo\volt} izolacije med primarno in sekundarno stranjo.
+	Sestavljajo ga nastavljivi visokonapetostni izvir, polnilni upor, praznilni kondenzator, praznilni upor ter ne-preskakovalno (t.i. bounce-less) stikalo. Preko polnilnega upora se napolni praznilni kondenzator na željeno vrednost, katerega se v željenem trenutku preko praznilnega upora sprazni skozi napravo pod testom. Izhodni tok mora vstrezati limitam katere so podane v standardih: dvižni čas mora biti manjši kot \SI{10}{\nano\second} ter nominalni čas praznenja kondenzatorja skozi kratki stik mora biti \SI{150}{\nano\second} z maksimalno deviacijo \SI{\pm 20}{\nano\second}. Slednja zahteva pomeni, da z stikalom, povezovalnimi žicami in konektorji smemo dodati maksimalno \SI{20}{\pico\farad}, saj drugače bo čas spraznitve skozi kratki stik odstopal zahtevanemu. Pri načrtovanju visokonapetostnega izvira je prav tako potrebno biti previden, saj mora zagotavljati \SI{15}{\kilo\volt} izolacije med primarno in sekundarno stranjo.
 
 	\subsection{Moduli simulatorja}
 	Simulator je sestavljen in 4 modulov, od katerih vsak opravlja posebno nalogo.
@@ -263,8 +263,69 @@ Princip delovanja simulatorja elektrostatične razelektritve je dokaj enostaven.
 
 	\subsection{Nastavljivi visokonapetostni napajalnik}
 	Začel sem z nastavljivim visokonapetostnim napajalnikom, saj sem pričakoval, da bo z njim največ dela in na koncu je tudi bilo tako. Z visokimi napetostmi nisem imel nobenih izkušenj, imel sem pa nekaj izkušenj z Cockcroft-Walton-ovim množilnikom napetosti. Hotel sem narediti stikalni napajalnik, kateri bi pretvarjal \SI{24}{\volt} v \SI{250}{\volt} za njim pa 60 stopenj množilnika. Regulaciji napetosti na transformatorju bi sledila tudi izhodna napetost množilnika. Po simulacijah, sem hitro ugotovil, da to ne bo delovalo po pričakovanjih, saj so kapacitivne izgube previsoke. Računi, simulacije koliko dodatnih stopenj blab albllablal. Našel sem pa članek, kjer so se soočali s podobnim problemom ~\cite{Using Parallel High Voltage Multipliers for 100kV Downhole Neutron Generator Power Supplies}, po simulacijah je rešitev izgledala obetavno. Zaradi navdušenja nad rezultati sem se lotil risanja sheme in tiskanega vezja v Altium Designerju. Na srečo smo mojo napako ugotovili, preden smo dali tiskano vezje v izdelavo. Za povratno zanko regulacije sem uporabil analogno-digitalni pretvornik s primerno dimenzinernem preduporom in s tem sem prekinil izolacijo med primarjem in sekundarjem. Sklenili smo, da bo verjetno najboljša možnost za dvigovanje napetosti samo z transformatorjem. Po povpraševanjih pri večjih ponudnikih elektronskih komponent sem prišel do zaključka, da primernega transformatorja ne bo možno kupiti vendar ga bo potrebno narediti. V preteklosti sem že navijal omrežne transformatorje, z načrtovanjem flyback transformatorjev, se pa še nisem srečal. Za začetek sem uporabil jedra RM10 iz materiala N87, katera sem našel v laboratoriju, izračunal sem le koliko obratov rabim na primarni strani, preden preide v nasišenje pri \SI{3}{\ampere}. Navil sem enega z razmerjem 1:10 in enega z 1:20.
+%TODO Meritve
 
+Preden sem opravil meritve sem moral narediti še napetostni delilnik za visokonapetostno sondo, saj je le ta narjena samo za \SI{1.8}{\kilo\volt}. Po specifikacijah ima vhodno vpornost \SI{2}{\mega\ohm}, kar pomeni z \SI{18}{\mega\ohm} preduporom, dosežemo razmerje 1:10 in posledično maksimalno napetost \SI{18}{\kilo\volt}. Pri tem je potrebno povdariti, da nisem dodal kapacitivne kompenzacije in sonda je bolj uporabna za indikacijo kot pa meritve. Tuljavo sem krmilnik s pomočjo MOSFETa in namenskega krmilnika UCC27517 proizvajalca Texas Instruments. Zaradi izredno kratkega časa vzpona in padca nam omogoča opravljanje meritve tudi pri višjih frekvencah. Maksimalni izhodni tok \SI{4}{\ampere} nam omogoča hitro odpiranje/zapiranje MOSFETov z višjim \(U_{DS}\). Z signalnim generatorjem sem lahko natančno kontroliral krmilnik. Meritve sem opravljal od \SI{1}{\percent} do \SI{10}{\percent} delovnega cikla, pri napetostih \SI{5}{\volt}, \SI{10}{\volt} in \SI{15}{\volt}. Omejitev toka sem nastavil na \SI{3}{\ampere}, vendar ta ni bila tako pomembna, saj sem imel paralelno iznodnim sponkam vezan še \SI{4700}{\micro\farad} elektrolitski kondenzator. Pri meritvah sem ugotovil, da napetost \(U_pp\) lahko brez problema doseže zahtevanih \SI{15}{\kilo\volt}, vendar se sliši prebijanje napetosti med navitji transformatorja. Odločil sem se narediti meritve še z tremi različnimi jedri. Pri iskanju jedra, sem si pomagal z skripto katero sem napisal v Matlabu, katera mi glede na \(A_L\) in \(l_e\) parametre izračuna potrebno razmerje navojev in maksimalni magnetilni tok. Odločili smo se za nekinekimalitrafo, nekinekiorgormizrežo in nekavelikapizdarija. Večja transformatorja sta izgledala zelo obetavno, saj bi na tuljavniku lažje zagotavljal primerno izolacijo ter visoka \(A_L\) vrednost pomeni manjše število ovojev. Iz radovednosti sem pomeril tudi dva flyback tranformatorja, katera sem naročil kot vzorca od proizvajalca CoilCraft in sicer GA3459 in GA3460, sta pa namenjena za \SI{500}{\volt}. Po mertivah sem prišel do ugotovitev, da transformatorja z velikim jedrom delujeta pod pričakovanji, transformatorja od proizvajalca CoilCraft delujeta izredno dobro in skoraj dosegata željene napetosti najbolje se je izkazal mali transformator z EFD jedrom. 
+ 
+\begin{center}
+\begin{tabular}{||c|c|c|c|c|c|c||}
+\hline
+Ime & \(L_pri\) & \(L_sec\) & Razmerje & \(U_ppMAX\) & Jedro & Reža \\ [0.5ex]
+\hline\hline
+GA3460 & \SI{2.6}{\micro\henry} & \SI{253}{\micro\henry} & 1:10 & \SI{3.9}{\kilo\volt} & EFD 25/13/9 & \SI{0.5}{\milli\meter} \\
+\hline
+GA3459 & \SI{5}{\micro\henry} & \SI{505}{\micro\henry} & 1:10 & \SI{13.8}{\kilo\volt} & EFD 25/13/9 & \SI{0.5}{\milli\meter} \\
+\hline
+Mali z EFD & \SI{76}{\micro\henry} & \SI{13.21}{\milli\henry} & 1:13 & \SI{7.84}{\kilo\volt} & EFD 30/15/9 & \SI{0}{\milli\meter} \\
+\hline
+\end{tabular}
+%\caption{Primerjava podatkov transformatorjev}
+\label{table:1}
+\end{center}
 
+Z rezultati meritev nisem bil najbolj zadovoljen, vendar sem se odločil najprej ugotoviti način regulacije izhodne napetosti in se kasneje po potrebni prilagoditi parametre transformatorja. 
+
+	\subsection{Regulacija napetosti} \label{RegulacijaNapetosti}
+	Prvotno sem si želel skrajšati čas načrtovnja in vzeti že narejeni regulator in po potrebi prilagoditi vezje okoli njega - vezje povratne zanke. Glede na obstoj številnik krmilnikov namenjenih za Flyback topologijo, sem tam začel iskanje primernih, sledeče sem izbral v ožji izbor:
+	
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c | c |c||}
+\hline
+Ime & Proizvajalec & Način povratne zanke \\[0.5ex]
+\hline\hline
+UCC28740-Q1 & Texas Instruments & Optoizolator \\
+LM5155 & Texas Instruments & Optoizolator \\
+LT3748 & Linear Technology & Zaznavnje na primarnem navitju \\
+LT3757 & Linear Technology & Napetostni delilnik na izhodu \\
+LTNEKIBrezFeta & Linear Technology & Zaznavanje na primarnem navitju \\
+LTNEKINEKI & Linear Technology & Pomožno navitje \\ [1ex]
+\hline
+\end{tabular}
+\caption{Ožji izbor regulatorjev}
+\end{table}
+
+	\subsubsection{UCC28740-Q1} \label{UCC28740-Q1}
+Krmilnik ima avtomatsko regulacijo frekvence v obmčju od \SI{170}{\hertz} do \SI{100}{\kilo\hertz}. Povratna vezava je izolirana preko optičnega spojnika, kateri je prožen na izhodni strani preko napetostnega delilnika in Zennerjeve diode. Z spreminjanjem vrednosti upora povratne vezave se spreminja točka, pri kateri se proži optični spojnik. lalalalalaal neki meritve simulacije izračuni kar kol sam da neki je lalalalal
+
+	\subsubsection{LM5155} \label{LM5155}
+LM5155 deluje po enakem principu kot že omenjeni UCC28740-Q1.
+
+	\subsubsection{LM3748} \label{LM3748}
+Krmilnik je zelo zanimiv, saj ne potrebuje dodatne povratne vezave, informacijo o izhodni napetosti namreč dobi preko zrcaljene napetosti na primarnem navitju. Ko se izključi N Kanalni MOSFET, napetost na ponoru zraste nad vhodno napetost, katera je enaka \(V_{FLBK} = (V_{OUT} + V_F + I_{SEC} * ESR) * N_{PS}) \), ta napetost steče proti masi preko \(R_{FB}\) in interno zaporedno vezanim \(R_{REF}\), točka med uporoma je vezana na ivertirajoči vhod ojačevalnika napake z referenco \SI{1.223}{\volt} \cite{analog:LT3748}. Izhodna napetost je enaka \(V_{OUT} = V_{BG}(R_{FB} / R_{REF})(1 / N_{PS}) - V_F - I_{SEC} (ESR)\), kjer lahko pri naših napetostih zanemarimo \(V_F\) in \(I_SEC (ESR)\), upoštevati pa moramo tudi zahteve za minimalno induktivnost primarnega navitja:
+\[L_{PRI} \geq \]
+
+	\subsection{LM3757} \label{LM3757}
+Krmilnik LM3757 proizvajalca Linear Technology je krmilnik pri kateremu se nastavlja obratovalno frekvenco z enim uporom v razponu med \SI{100} {\kilo\hertz} in \SI{1} {\mega\hertz}. Napetost se nastavlja z napetostnim delilnikom na sekundarni strani, da pri željeni izhodni napetosti je izhod napetostnega delilnika enak \SI{1.6} {\volt}. Na spletni strani od produkta je bilo možno dobiti vezje regulatorja, katermu sem spremenil vrednosti določenih elementov po mojih potrebah. Po nekaj simulacijah je hitro postalo jasno, da je omenjeni krmilnik primeren za projekt, saj sem uspel nastavljati izodno napetost med \SI{300}{\volt} in \SI{5}{\kilo\volt}. 
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\columnwidth]{Slike/Simulacije/LM3757spice.png}
+        \caption{\label{LM3757spice} Shema vezja v LTSpice.}
+    \end{figure}
+    
+Vendar je problem iz vidika varnosti, sekundarno navitje visokonapetostnega transformatorja je električno povezan z nizkonapetostno stranjo. Za zagotavljanje primerne izolacije bi moral napajalnik modula zdržati \SI{15}{\kilo\volt}, kar zopet pomeni načrtovanje takega napajalnika saj napajalniki z najvišjo prebojno trdnostjo so takšni pod certifikatom IEC 60601-1 po katerem je najvišja prebojna trdnost \SI{4000}{\volt}AC.
+    
 \chapter{Zahteve} \label{Zahteve}
 
 Pred začetnom snovanja simulatorja elektrostatične razelektritve so bila podane sledeče zahteve:

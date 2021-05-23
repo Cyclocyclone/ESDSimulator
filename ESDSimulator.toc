@@ -8,7 +8,12 @@
 \contentsline {section}{\numberline {2.2}Zasnova simulatorja elektrostatične razelektritve}{6}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Moduli simulatorja}{7}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Nastavljivi visokonapetostni napajalnik}{8}{subsection.2.2.2}%
-\contentsline {chapter}{\numberline {3}Zahteve}{9}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Blok shema projekta}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Nastavljivi visokonapetostni napajalnik}{12}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Visokonapetostno stikalo}{19}{chapter.5}%
+\contentsline {subsection}{\numberline {2.2.3}Regulacija napetosti}{10}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}UCC28740-Q1}{10}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}LM5155}{10}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}LM3748}{10}{subsubsection.2.2.3.3}%
+\contentsline {subsection}{\numberline {2.2.4}LM3757}{11}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}Zahteve}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Blok shema projekta}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Nastavljivi visokonapetostni napajalnik}{16}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Visokonapetostno stikalo}{23}{chapter.5}%
